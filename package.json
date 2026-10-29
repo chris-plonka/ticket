@@ -7,15 +7,15 @@
     "ssl": "concurrently --kill-others 'npx next start -p 3001' 'npx local-ssl-proxy --source 3000 --target 3001'",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
+    
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.43.5",
     "@tabler/icons-react": "^2.44.0",
     "concurrently": "^8.2.2",
-    "eslint": "8.48.0",
+   
     "next": "^14.2.35",
     "nodemailer": "^6.9.8",
     "react": "^18",
